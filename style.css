@@ -1,0 +1,36 @@
+:root{
+    --gradient:linear-gradient(180deg,rgba(45,112,253,0.73)0%,#163e92 100%);
+
+    --dark:#001747;
+    --grey:#b1bacb;
+    --grey-border:rgba(210,210,210,0.75);
+    --gray-dark:#b1c1df;
+    --blue:#2d70fd;
+    --green:#00dBa7;
+    --white:#ffffff;
+
+
+
+}
+
+body{
+    background-color:var(--gradient) ;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+.btn{
+    color: var(--white);
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.3rem;
+    background-color: var(--blue);
+    border: none;
+
+}
